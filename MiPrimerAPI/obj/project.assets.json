@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\Clase-29-08\\MiPrimerAPI\\MiPrimerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\MiPrimerAPI\\MiPrimerAPI.csproj",
       "projectName": "MiPrimerAPI",
-      "projectPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\Clase-29-08\\MiPrimerAPI\\MiPrimerAPI.csproj",
+      "projectPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\MiPrimerAPI\\MiPrimerAPI.csproj",
       "packagesPath": "C:\\Users\\JUSTINA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\Clase-29-08\\MiPrimerAPI\\obj\\",
+      "outputPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\MiPrimerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

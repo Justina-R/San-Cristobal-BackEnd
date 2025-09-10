@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+MFTKvapk/s=",
+  "dgSpecHash": "JuMGfNrpeZs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\Clase-29-08\\MiPrimerAPI\\MiPrimerAPI.csproj",
+  "projectFilePath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\MiPrimerAPI\\MiPrimerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JUSTINA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\JUSTINA\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

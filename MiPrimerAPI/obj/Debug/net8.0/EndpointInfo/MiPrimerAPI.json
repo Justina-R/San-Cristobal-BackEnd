@@ -10,6 +10,7 @@
         "tags": [
           "Instruments"
         ],
+        "summary": "Devuelve todos los instrumentos de la lista",
         "responses": {
           "200": {
             "description": "OK"
@@ -20,7 +21,9 @@
         "tags": [
           "Instruments"
         ],
+        "summary": "Agrega un nuevo instrumento a la lista",
         "requestBody": {
+          "description": "",
           "content": {
             "application/json": {
               "schema": {
@@ -51,10 +54,12 @@
         "tags": [
           "Instruments"
         ],
+        "summary": "Modifica un instrumento de la lista",
         "parameters": [
           {
             "name": "instrumentIndex",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "integer",
@@ -63,6 +68,7 @@
           }
         ],
         "requestBody": {
+          "description": "",
           "content": {
             "application/json": {
               "schema": {
@@ -91,10 +97,12 @@
         "tags": [
           "Instruments"
         ],
+        "summary": "Elimina un instrumento de la lista",
         "parameters": [
           {
             "name": "instrumentIndex",
             "in": "path",
+            "description": "",
             "required": true,
             "schema": {
               "type": "integer",
@@ -148,72 +156,7 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
-  "components": {
-    "schemas": {
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  }
+  "components": { }
 }

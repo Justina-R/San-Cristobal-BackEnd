@@ -2,6 +2,8 @@
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
+//Práctica copiada de la clase: cómo crear un controlador y un endpoint de tipo GET
+
 namespace MiPrimerAPI.Controllers
 {
     [Route("api/[controller]")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiPrimerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69114abb7350a94046034005ac9b497d566446c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiPrimerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiPrimerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

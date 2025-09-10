@@ -13,14 +13,23 @@ namespace MiPrimerAPI.Controllers
         //Con el ejercicio extra, usamos InstrumentRepository, no esta lista
         //private static List<string> instruments = new() { "Guitarra", "Batería", "Piano" };
 
+        /// <summary>
+        /// Devuelve todos los instrumentos de la lista
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult GetInstruments()
         {
             //return Ok(instruments);
+            //Como el único atributo de la clase es estático y el constructor también, no hace falta instanciar la clase
             return Ok(InstrumentRepository.Instruments);
         }
 
-        // POST api/<InstrumentsController>
+        /// <summary>
+        /// Agrega un nuevo instrumento a la lista
+        /// </summary>
+        /// <param name="instrument"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult AddNewInstrument([FromBody] string instrument)
         {
@@ -34,7 +43,12 @@ namespace MiPrimerAPI.Controllers
 
         }
 
-        // PUT api/<InstrumentsController>/5
+        /// <summary>
+        /// Modifica un instrumento de la lista
+        /// </summary>
+        /// <param name="instrumentIndex"></param>
+        /// <param name="newInstrument"></param>
+        /// <returns></returns>
         [HttpPut("{instrumentIndex}")]
         public ActionResult UpdateInstrument([FromRoute] int instrumentIndex, [FromBody] string newInstrument)
         {
@@ -53,7 +67,11 @@ namespace MiPrimerAPI.Controllers
             return Ok($"Se modificó el elemento en posición {instrumentIndex} a {newInstrument}.");
         }
 
-        // DELETE api/<InstrumentsController>/5
+        /// <summary>
+        /// Elimina un instrumento de la lista
+        /// </summary>
+        /// <param name="instrumentIndex"></param>
+        /// <returns></returns>
         [HttpDelete("{instrumentIndex}")]
         public ActionResult DeleteInstrument(int instrumentIndex)
         {
