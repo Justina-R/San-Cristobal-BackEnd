@@ -1,0 +1,6 @@
+@EjercicioInyeccionDeDependencias_HostAddress = http://localhost:5077
+
+GET {{EjercicioInyeccionDeDependencias_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

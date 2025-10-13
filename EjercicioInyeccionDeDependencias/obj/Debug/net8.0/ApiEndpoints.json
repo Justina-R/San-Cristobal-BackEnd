@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "EjercicioInyeccionDeDependencias.Controllers.UserController",
+    "Method": "Notificar",
+    "RelativePath": "User/notificar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
