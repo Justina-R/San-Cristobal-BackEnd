@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using EjerciciosORM.Entidades;
+using EjerciciosORM.Modelos;
 using EjerciciosORM.Repositorios;
 
 namespace EjerciciosORM.Controllers
@@ -17,7 +17,7 @@ namespace EjerciciosORM.Controllers
 
         // Ejercicio 1: Consultar empleados
         [HttpGet("TodosLosEmpleados")]
-        public async Task<ActionResult<List<Empleado>>> GetTodosLosEmpleados()
+        public async Task<ActionResult<List<Employee>>> GetTodosLosEmpleados()
         {
             return Ok(await _repositorio.GetTodosLosEmpleadosAsync());
         }
@@ -29,41 +29,41 @@ namespace EjerciciosORM.Controllers
         }
 
         [HttpGet("EmpleadoPorID")]
-        public async Task<ActionResult<Empleado>> GetEmpleadoPorId([FromQuery] int empleadoID)
+        public async Task<ActionResult<Employee>> GetEmpleadoPorId([FromQuery] int empleadoID)
         {
             var emp = await _repositorio.GetEmpleadoPorIdAsync(empleadoID);
             return emp is null ? NotFound() : Ok(emp);
         }
 
         [HttpGet("EmpleadosPorNombre")]
-        public async Task<ActionResult<Empleado>> GetEmpleadoPorNombre([FromQuery] string nombreEmpleado)
+        public async Task<ActionResult<Employee>> GetEmpleadoPorNombre([FromQuery] string nombreEmpleado)
         {
             var emp = await _repositorio.GetEmpleadoPorNombreAsync(nombreEmpleado);
             return emp is null ? NotFound() : Ok(emp);
         }
 
         [HttpGet("EmpleadoPorTitulo")]
-        public async Task<ActionResult<Empleado>> GetEmpleadoPorTitulo([FromQuery] string titulo)
+        public async Task<ActionResult<Employee>> GetEmpleadoPorTitulo([FromQuery] string titulo)
         {
             var emp = await _repositorio.GetEmpleadoPorTituloAsync(titulo);
             return emp is null ? NotFound() : Ok(emp);
         }
 
         [HttpGet("EmpleadoPorPais")]
-        public async Task<ActionResult<Empleado>> GetEmpleadoPorPais([FromQuery] string country)
+        public async Task<ActionResult<Employee>> GetEmpleadoPorPais([FromQuery] string country)
         {
             var emp = await _repositorio.GetEmpleadoPorPaisAsync(country);
             return emp is null ? NotFound() : Ok(emp);
         }
 
         [HttpGet("TodosLosEmpleadosPorPais")]
-        public async Task<ActionResult<List<Empleado>>> GetTodosLosEmpeladosPorPais([FromQuery] string country)
+        public async Task<ActionResult<List<Employee>>> GetTodosLosEmpeladosPorPais([FromQuery] string country)
         {
            return Ok(await _repositorio.GetTodosLosEmpleadosPorPaisAsync(country));
         }
 
         [HttpGet("ElEmpleadoMasGrande")]
-        public async Task<ActionResult<Empleado>> GetEmpleadoMasGrande()
+        public async Task<ActionResult<Employee>> GetEmpleadoMasGrande()
         {
            return Ok(await _repositorio.GetEmpleadoMasGrandeAsync());
         }
@@ -77,13 +77,13 @@ namespace EjerciciosORM.Controllers
 
         // Ejercicio 3: Productos
         [HttpGet("ObtenerProductosConCategoria")]
-        public async Task<ActionResult<List<Producto>>> GetProductosConCategoria()
+        public async Task<ActionResult<List<Product>>> GetProductosConCategoria()
         {
             return Ok(await _repositorio.GetProductosConCategoriaAsync());
         }
 
         [HttpGet("ObtenerProductosQueContienen")]
-        public async Task<ActionResult<List<Producto>>> GetProductosQueContengan([FromQuery] string palabra)
+        public async Task<ActionResult<List<Product>>> GetProductosQueContengan([FromQuery] string palabra)
         {
             var productoEncontrado = await _repositorio.GetProductosQueContenganAsync(palabra);
             if (productoEncontrado == null || !productoEncontrado.Any())

@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\",
+  "WorkspaceRootPath": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\repositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:repositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:modelos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina\\documents\\curso san cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:entidades\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\modelos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:modelos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\contexto\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:contexto\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\repositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:repositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|c:\\users\\justina r\\documents\\curso-san-cristobal\\back-end\\san-cristobal-backend\\ejerciciosorm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3E6A32F-685B-4D43-8920-CE0E98587D34}|EjerciciosORM.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Modelos\\Producto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Producto.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Modelos\\Producto.cs",
+              "RelativeToolTip": "Modelos\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:29:54.209Z",
+              "WhenOpened": "2025-10-20T23:12:21.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Repositorio.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\Repositorio.cs",
-              "RelativeDocumentMoniker": "Repositorios\\Repositorio.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\Repositorio.cs",
-              "RelativeToolTip": "Repositorios\\Repositorio.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwCsAAABEAAAAAAAAAA==",
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Contexto\\DataContext.cs",
+              "RelativeDocumentMoniker": "Contexto\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Contexto\\DataContext.cs",
+              "RelativeToolTip": "Contexto\\DataContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:22:56.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\IRepositorio.cs",
-              "RelativeDocumentMoniker": "Repositorios\\IRepositorio.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\IRepositorio.cs",
-              "RelativeToolTip": "Repositorios\\IRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:21:35.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Entidades\\Producto.cs",
-              "RelativeDocumentMoniker": "Entidades\\Producto.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Entidades\\Producto.cs",
-              "RelativeToolTip": "Entidades\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:18:09.346Z",
+              "WhenOpened": "2025-10-20T23:09:41.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Entidades\\Empleado.cs",
-              "RelativeDocumentMoniker": "Entidades\\Empleado.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Entidades\\Empleado.cs",
-              "RelativeToolTip": "Entidades\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:17:37.335Z",
+              "WhenOpened": "2025-10-20T23:07:08.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmpleadosController.cs",
-              "DocumentMoniker": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Controllers\\EmpleadosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EmpleadosController.cs",
-              "ToolTip": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Controllers\\EmpleadosController.cs",
-              "RelativeToolTip": "Controllers\\EmpleadosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\IRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorios\\IRepositorio.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\IRepositorio.cs",
+              "RelativeToolTip": "Repositorios\\IRepositorio.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T20:04:04.166Z",
+              "WhenOpened": "2025-10-20T22:40:00.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\Repositorio.cs",
+              "RelativeDocumentMoniker": "Repositorios\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Repositorios\\Repositorio.cs",
+              "RelativeToolTip": "Repositorios\\Repositorio.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T21:13:48.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Modelos\\Empleado.cs",
+              "RelativeDocumentMoniker": "Modelos\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\Modelos\\Empleado.cs",
+              "RelativeToolTip": "Modelos\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T21:17:10.896Z",
               "EditorCaption": ""
             }
           ]

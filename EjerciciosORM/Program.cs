@@ -1,11 +1,15 @@
+using EjerciciosORM.Contexto;
 using EjerciciosORM.Repositorios;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IRepositorio, Repositorio>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind")));
+builder.Services.AddTransient<IRepositorio, Repositorio>();
 
 var app = builder.Build();
 

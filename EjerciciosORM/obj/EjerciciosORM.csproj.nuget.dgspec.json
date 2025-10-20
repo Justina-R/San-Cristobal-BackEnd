@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj": {}
+    "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj": {
+    "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj",
+        "projectUniqueName": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj",
         "projectName": "EjerciciosORM",
-        "projectPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj",
-        "packagesPath": "C:\\Users\\JUSTINA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JUSTINA\\Documents\\Curso San Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\obj\\",
+        "projectPath": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\EjerciciosORM.csproj",
+        "packagesPath": "C:\\Users\\Justina R\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justina R\\Documents\\Curso-San-Cristobal\\Back-End\\San-Cristobal-BackEnd\\EjerciciosORM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\JUSTINA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Justina R\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

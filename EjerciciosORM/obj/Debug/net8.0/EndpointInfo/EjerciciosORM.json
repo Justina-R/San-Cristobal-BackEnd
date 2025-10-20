@@ -152,7 +152,7 @@
         }
       }
     },
-    "/api/IDempleadoPorTitulo": {
+    "/api/EmpleadoPorTitulo": {
       "get": {
         "tags": [
           "Empleados"
@@ -407,25 +407,37 @@
       "Empleado": {
         "type": "object",
         "properties": {
-          "idEmpleado": {
+          "employeeID": {
             "type": "integer",
             "format": "int32"
           },
-          "nombre": {
+          "lastName": {
             "type": "string",
             "nullable": true
           },
-          "titulo": {
+          "firstName": {
             "type": "string",
             "nullable": true
           },
-          "pais": {
+          "title": {
             "type": "string",
             "nullable": true
           },
-          "edad": {
-            "type": "integer",
-            "format": "int32"
+          "country": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hireDate": {
+            "type": "string",
+            "format": "date-time"
           }
         },
         "additionalProperties": false
@@ -433,17 +445,17 @@
       "Producto": {
         "type": "object",
         "properties": {
-          "idProducto": {
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "categoryID": {
             "type": "integer",
             "format": "int32"
           },
-          "nombreProducto": {
-            "type": "string",
-            "nullable": true
-          },
-          "categoria": {
-            "type": "string",
-            "nullable": true
+          "productID": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

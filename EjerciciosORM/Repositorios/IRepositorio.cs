@@ -1,19 +1,19 @@
-﻿using EjerciciosORM.Entidades;
+﻿using EjerciciosORM.Modelos;
 
 namespace EjerciciosORM.Repositorios
 {
     public interface IRepositorio
     {
-        Task<List<Empleado>> GetTodosLosEmpleadosAsync();
+        Task<List<Employee>> GetTodosLosEmpleadosAsync();
         Task<int> GetCantidadEmpleadosAsync();
-        Task<Empleado?> GetEmpleadoPorIdAsync(int id);
-        Task<Empleado?> GetEmpleadoPorNombreAsync(string nombre);
-        Task<Empleado?> GetEmpleadoPorTituloAsync(string titulo);
-        Task<Empleado?> GetEmpleadoPorPaisAsync(string pais);
-        Task<List<Empleado>> GetTodosLosEmpleadosPorPaisAsync(string pais);
-        Task<Empleado?> GetEmpleadoMasGrandeAsync();
-        Task<Dictionary<string, int>> GetCantEmpleadosPorTituloAsync();
-        Task<List<Producto>> GetProductosConCategoriaAsync();
-        Task<List<Producto>> GetProductosQueContenganAsync(string palabra);
+        Task<Employee?> GetEmpleadoPorIdAsync(int id);
+        Task<Employee?> GetEmpleadoPorNombreAsync(string nombre);
+        Task<Employee?> GetEmpleadoPorTituloAsync(string titulo);
+        Task<Employee?> GetEmpleadoPorPaisAsync(string pais);
+        Task<List<Employee>> GetTodosLosEmpleadosPorPaisAsync(string pais);
+        Task<Employee?> GetEmpleadoMasGrandeAsync();
+        Task<List<object>> GetCantEmpleadosPorTituloAsync();
+        Task<List<Product>> GetProductosConCategoriaAsync();
+        Task<List<Product>> GetProductosQueContenganAsync(string palabra);
     }
 }
